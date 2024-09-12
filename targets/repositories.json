@@ -1,50 +1,61 @@
 {
-    "repositories": {
-        "kiowatribe/law-docs": {
-            "custom": {
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~/.*\\.pdf$"
-            }
-        },
-        "kiowatribe/law-xml": {
-            "custom": {
-                "type":"xml",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "serve-prefix":"_uncodified_xml"
-            }
-        },
-        "kiowatribe/law-rdf": {
-            "custom": {
-                "type":"rdf",
-                "serve":"historical",
-                "serve-prefix":"_rdf"
-            }
-        },
-        "kiowatribe/law-html": {
-            "custom": {
-                "preview":"https://github.com/kiowatribe/law-html-preview.git",
-                "type":"html",
-                "serve":"historical",
-                "location_regex":"/"
-            }
-        },
-        "kiowatribe/law-xml-codified": {
-            "custom": {
-                "preview":"https://github.com/kiowatribe/law-xml-codified-preview.git",
-                "type":"xml-codified",
-                "serve":"historical",
-                "serve-prefix":"_xml"
-            }
-        },
-        "kiowatribe/law-static-assets": {
-            "custom": {
-                "type":"static-assets",
-                "allow-unauthenticated-commits":true,
-                "serve":"latest",
-                "location_regex":"~.+(_document|_reader).+$"
-            }
-        }
+  "repositories": {
+    "kiowatribe/law-docs": {
+      "custom": {
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "location_regex": "~/.*\\.pdf$",
+        "routes": [
+          ".*\\.pdf"
+        ]
+      }
+    },
+    "kiowatribe/law-xml": {
+      "custom": {
+        "type": "xml",
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "serve-prefix": "_uncodified_xml"
+      }
+    },
+    "kiowatribe/law-rdf": {
+      "custom": {
+        "type": "rdf",
+        "serve": "historical",
+        "serve-prefix": "_rdf"
+      }
+    },
+    "kiowatribe/law-html": {
+      "custom": {
+        "preview": "https://github.com/kiowatribe/law-html-preview.git",
+        "type": "html",
+        "serve": "historical",
+        "location_regex": "/",
+        "routes": [
+          ".*"
+        ]
+      }
+    },
+    "kiowatribe/law-xml-codified": {
+      "custom": {
+        "preview": "https://github.com/kiowatribe/law-xml-codified-preview.git",
+        "type": "xml-codified",
+        "serve": "historical",
+        "serve-prefix": "_xml"
+      }
+    },
+    "kiowatribe/law-static-assets": {
+      "custom": {
+        "type": "static-assets",
+        "allow-unauthenticated-commits": true,
+        "serve": "latest",
+        "location_regex": "~.+(_document|_reader).+$",
+        "is_fallback": true,
+        "routes": [
+          ".*/_document/.*",
+          "_reader/.*"
+        ]
+      }
     }
+  }
 }
