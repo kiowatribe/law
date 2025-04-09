@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-   "sig": "5421425de8158b0385fff75d1f0fb339d7da32dcc555e7706a3856a6259488806e0f5db8f0c464bd3d019291f40849c1c34a8d50efb3008571915d74a2887602d25d727ce8e5e59759c4373d22c25410644851f858e75012d0ca901d1ecf655fc98f32437cd1f665525f91799c7c11fa1787b52773e22df12900b66b1aa4ddd389421cd95e297851a301abd8a9311dfdc01a93e89e0388eae6430fedaf9974ae9ce6a8cbd9e2bdad290e4bba712473ce7718bc56f9f8139db2eced271da8135a6a75e474b7d8a97bf2022746eba0bb8dd002e9ac863e48e8389c639716b1ee661dcf93b406c91087100ac96dd5da71451da83a9ef9a29102b875b9352d52eaa7"
+   "sig": "29d629749d0e9b4cc5c3accf250ff1f0b52ac7df3071b3767bda8a9843f6ee5d9277a0c2fda974b9c962f15bc62344112a78aedc41ae9889711e6f0eb771d4283d921e9a2e1f841c6e11be5273e8c55e953b36d4fa108c2a1215b88ccd936f08888a610346da8bafd96e30f6b9c1b72f5fad9b4b203535d6890e1c8887c8c194cf3a11cbbc3b4c9553793ae138963151f91c2542d14236fe0c7e7272479f69eb24219b0e9570f618f4996f6aab9750991eddd9bb85c38a66b6f29f1071c7b4ccec702d719d783a1f59fccb44f064035bd99a82b20320d40f778eb80c22581befbeff70d205db67fc213e66e5ecc77bb12ebbfdc961086c8c06c58f1d579b1f72"
   }
  ],
  "signed": {
@@ -17,6 +17,17 @@
      "keytype": "rsa",
      "keyval": {
       "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvelAxFL3fhSparIA/9cF\nTp6VJL1/oph4+h95PRKVLbt2pTmev+Ozt2HZvZOIkYPYbchZ2LlCprDYM/0wW4Cd\nHcazwjPVw/wHcvJ7Vm7svDhY3SqYQTM3h5vWdtiisZO9ASofY2vsmDglsB5+xD8n\noWwnCLrZAHf67EUTUbWx/t7TXYtIA+cFrHYN4B/D0Ii6Y9tEKP4pB5nlj/ShZ7kf\nRfs45JVIWFMiVfof0QcIUatS6oS2JdRdhBepuOOf8Kp79C/0GIU2vaQHksFje/Q3\nVEtH/+d+VOK72SrUEjeSZS/hA2L2lNnTuTSENwb5CwJR9IfJB3gNoP/hjYoCKcrV\nKwIDAQAB\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
+    "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqefRyV0BIZHsSdT0saa4\nqyatcIU0YeaswBAXSXPNJ3MySv7A6LxgdD4mWZRCUNwB11wynOhtRfm/CVPUGy86\nNK3V3VN4hfjul14bkErAyzPU1+vWt3BTTLCf4cP04afBfBqcAdhzpUvshZwVOTOF\nPzD2r4k/Z9GP6gDdIrJbjgHFn046IOlKZ88s7iMA6qBS2rzGYI3UGRIULp+aRxXW\nUF/m32OpJ/kRr92O52nhJKjLtJkcVrekRRATrFmhX1FMQPAA6slgXceoiPcrRmy6\n83kCKr2VJMWm2lwHfsYl8a0grCI0hnuRhkh7FBBvuWQTiAUC7wPn8Ym3sJoLkX7O\nOQIDAQAB\n-----END PUBLIC KEY-----\n"
      },
      "scheme": "rsa-pkcs1v15-sha256"
     },
@@ -36,7 +47,8 @@
     {
      "keyids": [
       "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "law",
      "paths": [
@@ -54,7 +66,8 @@
     {
      "keyids": [
       "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "rdf",
      "paths": [
@@ -68,7 +81,8 @@
     {
      "keyids": [
       "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "docs",
      "paths": [
@@ -80,7 +94,8 @@
     {
      "keyids": [
       "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "assets",
      "paths": [
@@ -116,6 +131,6 @@
     "length": 1447
    }
   },
-  "version": 9
+  "version": 10
  }
 }
