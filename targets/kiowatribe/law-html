@@ -1,6 +1,5 @@
 {
-    "branch": "publication/2026-09-01",
+    "branch": "publication/2026-09-01-01",
     "build-date": "2026-09-01",
-    "commit": "fc8faeb5f4ffb32a2bad309ab4ec167ae2178b18",
-    "codified-date": "2026-07-28"
+    "commit": "e6aa2506e1c408fd749f6cace2c0096932d54cd6"
 }
